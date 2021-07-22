@@ -3,4 +3,22 @@
   "editor.quickSuggestions": {
     "strings": true
   },
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode",
+    "editor.formatOnSave": true
+  },
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "[Typescript]": {
+    "editor.formatOnSave": false
+  },
+  "eslint.validate": [
+    "svelte",
+    "javascript",
+    "Typescript"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
 }

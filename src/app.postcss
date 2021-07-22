@@ -1,0 +1,30 @@
+@tailwind base;
+/* Write your global styles here, in PostCSS syntax */
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --border-size: 3px;
+  --border-color: #f0f0f0;
+
+  --nullday-color: #e0e0e0;
+  --sunday-color: #f38ba0;
+  --saturday-color: #b5eaea;
+}
+
+body {
+  color: #707070;
+}
+
+.nullday {
+  background-color: var(--nullday-color);
+}
+
+.saturday {
+  background-color: var(--saturday-color) !important;
+}
+
+.sunday {
+  background-color: var(--sunday-color) !important;
+  color: white;
+}
