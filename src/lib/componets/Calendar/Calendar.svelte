@@ -23,6 +23,7 @@
 
 <style>
   .calendar {
+    max-width: 100vw;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     box-sizing: border-box;
