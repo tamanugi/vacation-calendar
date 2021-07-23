@@ -65,7 +65,7 @@
   <div class="mt-1 flex gap-4">
     <TweetButton
       text={tweetText}
-      url={'http://localhost:3000'}
+      url={'https://vacation-calendar.vercel.app/'}
       hashtags={['web1week', '祝日移動ガチャカレンダー']}
     />
 
